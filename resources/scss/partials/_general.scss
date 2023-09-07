@@ -1,0 +1,49 @@
+@use "./variables" as *;
+
+body {
+  scroll-behavior: smooth !important;
+  font-family: 'Lato', sans-serif;
+}
+
+.t4-container {
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.t4-btn {
+  color: white;
+  background-color: $dark_gray;
+  transition: all 0.3s;
+
+  &:hover {
+    color: white;
+    background-color: $light_blue;
+  }
+}
+
+.t4-btn-light {
+  color: $dark-gray;
+  background-color: $dark-white;
+  transition: all 0.3s;
+
+  &:hover {
+    color: white;
+    background-color: $light_blue;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
